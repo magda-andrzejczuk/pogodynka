@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Pogodynka Magdy</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="loading">
+      <img src="./loading.svg" />
+    </div>
+    <div id="content">
+      <div id="wyszukiwarka-box">
+        <input id="wyszukiwarka" placeholder="Wpisz miasto..." />
+        <select id="wybierajka"></select>
+        <span>Wciśnij enter żeby wyszukać</span>
+      </div>
+      <div id="wyniki">
+        <div class="pogodaAktualna">
+          <h2>Pogoda aktualna</h2>
+          <div class="ikonka"></div>
+          <div>Temperatura: <span class="temp"></span></div>
+          <div>Zachmurzenie: <span class="zachmurzenie"></span></div>
+          <div>Kierunek Wiatru: <span class="kierunekWiatru"></span></div>
+          <div>Opis: <span class="opis"></span></div>
+        </div>
+        <div class="pogodaJutro">
+          <h2>Prognoza na jutro</h2>
+          <div class="ikonka"></div>
+          <div>Temperatura: <span class="temp"></span></div>
+          <div>Zachmurzenie: <span class="zachmurzenie"></span></div>
+          <div>Kierunek Wiatru: <span class="kierunekWiatru"></span></div>
+          <div>Opis: <span class="opis"></span></div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
